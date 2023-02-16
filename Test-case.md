@@ -18,13 +18,14 @@ This test case aims to verify the ability of a system to connect to a remote ser
 
 The test user accounts deleted from the remote server
 SSH server and client software uninstalled from both systems
-Tools Used in Testing:
 
-SSH client (ssh) and server (sshd) software
-ssh-keygen: to generate SSH key pair
-ssh-copy-id: to copy the public key to the remote server
-Password authentication: SSH client will prompt for a password
-Key-based authentication: SSH client will use a private key to authenticate
+## Tools Used in Testing:
+
+* SSH client (ssh) and server (sshd) software
+* ssh-keygen: to generate SSH key pair
+* ssh-copy-id: to copy the public key to the remote server
+* Password authentication: SSH client will prompt for a password
+* Key-based authentication: SSH client will use a private key to authenticate
 
 
 ## Pass/Fail Criteria:
